@@ -1,0 +1,62 @@
+.livros{
+    display: flex;
+flex-wrap: wrap;
+margin: 0 auto;
+margin-top: 1em;
+justify-content: center;
+}
+
+
+.livros > .livro{
+    cursor: pointer;
+    height: 25em;
+    max-width: 10em;
+    padding: 1em;
+    border: 1px solid rgba(0, 0, 0, 0.664);
+    border-radius: 1em;
+    box-shadow: 2px 2px 25px;
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+.livro:hover{
+    max-width: 12em;
+}
+
+.livros > .livro > img{
+width: 100%;
+height: 55%;
+border: 1px solid black;
+border-radius: 1em;
+}
+
+.livros > .livro > p{
+    display: flex;
+    text-align: left;
+    font-size:20px;
+    margin-top: 0.5;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.livros > .livro > button{
+    width: 100%;
+    font-size: 20px;
+    border-radius: 1em;
+    margin-top: 1.5em;
+    padding: 0.5em;
+    background-color: rgb(92, 156, 92);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: static;
+    cursor: pointer;
+}
+
+.livros > .livro > button > a{
+   text-decoration: none;
+   color: white;    
+   padding-left: 2.8em;
+   padding-right: 3em;
+   padding-top: 0.5em;
+   padding-bottom: 0.5em;
+}
