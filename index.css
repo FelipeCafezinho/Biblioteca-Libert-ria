@@ -4,6 +4,8 @@
     list-style: none;
 }
 
+
+
 body{
     background-color: rgba(128, 128, 128, 0.336);
 }
@@ -50,9 +52,20 @@ body{
     margin-top: 1em;
     background-color: black;
     color: white;
-    font-size: 4em;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 1.5em;
+}
+
+.footer > .redes{
+    margin-top: 1em;
+}
+
+.footer > .redes > .redes-imagens > a{
+padding-top: 1.9em;
 }
 
 @media (max-width: 768px){
+
     
 }
