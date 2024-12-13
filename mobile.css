@@ -1,0 +1,9 @@
+.livros-simples{
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+
+.livros-simples > div{
+    margin-top: 1em;
+}
